@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Calculadora from './main/Calculator';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <h1>
+      CALCULADORA
+    </h1>
+  <Calculadora/>
+  </div>
+  ,
   document.getElementById('root')
 );
 
